@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "404264086340",
+    "project_id": "jadwal-vaksinasi",
+    "storage_bucket": "jadwal-vaksinasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404264086340:android:56f562816c1c5ca2840511",
+        "android_client_info": {
+          "package_name": "com.example.vaksinasischedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404264086340-7g74o6srpme5rdhu7gpj4h8f2bgcphah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfzp52kmiE-Gfl8h0W3382ySSndvkj5Vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404264086340-7g74o6srpme5rdhu7gpj4h8f2bgcphah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
