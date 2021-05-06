@@ -21,7 +21,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ellipse1_round" />
+            app:srcCompat="@drawable/ellipse1_round"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/virus_img_1"
@@ -68,7 +69,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/tangan_nonbg" />
+            app:srcCompat="@drawable/tangan_nonbg"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/text_banner"
