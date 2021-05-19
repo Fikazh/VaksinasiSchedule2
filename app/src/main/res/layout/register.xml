@@ -73,11 +73,12 @@
             android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
             android:text="Nama Pengguna"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/username_field"
@@ -96,7 +97,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"/>
+                android:fontFamily="@font/roboto"
+                android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -104,12 +106,13 @@
             android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
             android:text="Kata Sandi"
             android:textColor="#000000"
             android:textSize="18sp"
-            android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username_field"/>
+            app:layout_constraintTop_toBottomOf="@+id/username_field" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password_field"
@@ -129,7 +132,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"/>
+                android:fontFamily="@font/roboto"
+                android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -137,12 +141,13 @@
             android:id="@+id/ulang_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
             android:text="Ulangi Kata Sandi"
             android:textColor="#000000"
             android:textSize="18sp"
-            android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password_field"/>
+            app:layout_constraintTop_toBottomOf="@+id/password_field" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/ulang_password_field"
@@ -162,7 +167,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"/>
+                android:fontFamily="@font/roboto"
+                android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -170,12 +176,13 @@
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
             android:text="Email"
             android:textColor="#000000"
             android:textSize="18sp"
-            android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ulang_password_field"/>
+            app:layout_constraintTop_toBottomOf="@+id/ulang_password_field" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email_field"
@@ -194,7 +201,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"/>
+                android:fontFamily="@font/roboto"
+                android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -202,12 +210,13 @@
             android:id="@+id/no_telepon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
             android:text="Nomor Telepon"
             android:textColor="#000000"
             android:textSize="18sp"
-            android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/email_field"/>
+            app:layout_constraintTop_toBottomOf="@+id/email_field" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/no_telepon_field"
@@ -226,7 +235,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"/>
+                android:fontFamily="@font/roboto"
+                android:inputType="number" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -234,11 +244,12 @@
             android:id="@+id/DaftarButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#ffffff"
+            android:fontFamily="@font/roboto"
             android:text="Daftar Sekarang"
             android:textColor="#000000"
             android:textStyle="bold"
-            android:backgroundTint="#ffffff"
-            android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/no_telepon_field" />
