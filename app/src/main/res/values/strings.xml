@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">VaksinasiSchedule</string>
     <string name="javac">JaVaC</string>
+    <string name="daftar_sekarang">Daftar Sekarang</string>
 </resources>
